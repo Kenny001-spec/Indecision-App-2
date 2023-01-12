@@ -1,0 +1,21 @@
+.addOption {
+    display: flex;
+    padding: $medium-size;
+    gap: $medium-size;
+
+}
+
+.addOption--input {
+    flex-grow: 1;
+    background: $dark-blue;
+    border: none;
+    border-bottom: 0.3rem solid darken($dark-blue, 10);
+    color: $off-white;
+    padding: $small-size;
+}
+
+@media (min-width:45px) {
+    .addOption {
+        flex-direction: column;
+    }
+}
